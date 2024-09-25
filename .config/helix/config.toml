@@ -1,0 +1,13 @@
+theme="adwaita-dark"
+
+[editor]
+auto-pairs = false
+
+[editor.soft-wrap]
+enable = true
+
+[keys.normal."space"]
+minus = "file_picker_in_current_buffer_directory"
+
+[editor.file-picker]
+hidden = false

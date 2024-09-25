@@ -1,0 +1,21 @@
+[user]
+	email = rory.cullen@email.com
+	name = cullenr
+[core]
+	excludesFile = ~/.gitignore
+	editor = hx
+[filter "lfs"]
+	required = true
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+[init]
+	defaultBranch = develop
+[pull]
+	rebase = true
+
+[includeIf "gitdir:ws/lxr/"]
+	path = /home/spir/ws/lxr/.gitconfig
+
+[includeIf "gitdir:ws/terradactyl/"]
+	path = /home/spir/ws/terradactyl/.gitconfig

@@ -1,0 +1,616 @@
+﻿Log: Log file open, Sun Sep 22 13:07:06 2024
+Init: Name subsystem initialized
+Init: Version: 469
+Init: Revision: d (Release)
+Init: Compiled: Dec  9 2023 04:05:03
+Init: Command line: 
+Init: Base directory: 
+Init: Character set: Unicode
+Log: Bound to SDLDrv.so
+Log: Bound to Engine.so
+Log: Bound to Core.so
+Init: Object subsystem initialized
+Init: OS: Unix
+Init: CPU Detected: Intel(R) Core(TM) i7-6770HQ CPU @ 2.60GHz (GenuineIntel)
+Init: CPU Features: INVARIANT_TSC CMov FPU RDTSC PAE MMX SSE SSE2 SSE3 SSSE3 SSE4_1 SSE4_2 AVX AVX2
+Init: CPU Processors=8
+Init: Timer Frequency=2591.979630 MHz - Timing Source = gettimeofday
+Init: Unreal engine initialized
+Init: Detected 0 joysticks
+Init: SDLClient initialized.
+Log: Bound to Render.so
+Init: Lighting subsystem initialized
+Init: Rendering initialized
+Log: LoadMap: Entry
+Log: Bound to Fire.so
+Log: Bound to IpDrv.so
+Log: Game class is 'UTIntro'
+Log: Bringing Level Entry.MyLevel up for play (0)...
+ScriptLog: InitGame: 
+ScriptLog: Base Mutator is Entry.Mutator0
+Log: Browse: CityIntro.unr?Name=Player?Class=Botpack.TMale2?team=255?skin=SoldierSkins.blkt?Face=SoldierSkins.Othello
+Log: LoadMap: CityIntro.unr?Name=Player?Class=Botpack.TMale2?team=255?skin=SoldierSkins.blkt?Face=SoldierSkins.Othello
+Log: Collecting garbage
+Log: Purging garbage
+Log: Unloading: Package Render
+Log: Garbage: objects: 16969->16968; refs: 228592
+Log: Game class is 'UTIntro'
+Log: Bringing Level CityIntro.MyLevel up for play (0)...
+ScriptLog: InitGame: ?Name=Player?Class=Botpack.TMale2?team=255?skin=SoldierSkins.blkt?Face=SoldierSkins.Othello
+ScriptLog: Base Mutator is CityIntro.Mutator0
+Init: Initialized moving brush tracker for Level CityIntro.MyLevel
+Log: Created and initialized a new SDL viewport.
+Log: Compiled with SDL 2.26.2, linked with 2.26.2
+Log: Bound to UWeb.so
+ScriptLog: Team 255
+ScriptLog: Login: Player
+Log: Possessed PlayerPawn: TMale2 CityIntro.TMale0
+Init: Input system initialized for SDLViewport0
+Log: TTS: No output filename specified.
+Log: Opening SDL viewport.
+Log: Bound to OpenGLDrv.so
+Log: Loaded render device class.
+Log: Initializing OpenGLDrv...
+Log: dlerror: ./ut-bin: undefined symbol: NvOptimusEnablement
+Log: dlerror: ./ut-bin: undefined symbol: AmdPowerXpressRequestHighPerformance
+Log: binding libGL.so.1
+Init: Evaluating context type Core_4_5...
+Init: Evaluating context type ES_3_1...
+Init: Evaluating context type Core_3_3...
+Init: GL_VENDOR     : Intel
+Init: GL_RENDERER   : Mesa Intel(R) Iris(R) Pro Graphics 580 (SKL GT4)
+Init: GL_VERSION    : 4.6 (Core Profile) Mesa 24.0.9-0ubuntu0.1
+Init: OpenGL: GL_MAX_TEXTURE_IMAGE_UNITS_ARB = 32
+Init: OpenGL: Texture capabilities: [MaxSize=16384, MaxLayers=2048, MaxAnisotropy=16, Invalidation, Inmutable Storage]
+Init: OpenGL: Framebuffer capabilities: [Blit, Multisample, Invalidation]
+Init: OpenGL: Uniform capabilities: [BlockSize=65536] [Vert=15] [Geo=15] [Frag=15] [Align=32]
+Log: USDLViewport::ResizeViewport(3440, 1440)
+Log: SDLDrv SwapInterval = 0
+Log: SDLDrv: Window Point Size 3440x1403 - Window Pixel Size 3440x1403 - Mouse Scale 1.000000,1.000000
+Log: SDLDrv WARNING: Requested 3440x1440 window but got 3440x1403 - this is probably a high-dpi scaled resolution
+Init: Depth bits: 16
+Log: Bound to ALAudio.so
+Init: ALAudio: Trying to autodetect HRTF. Note: Autodetection may only work with USB headphones.
+Init: ALAudio: Trying to use default device
+Init: ALAudio: We are using OpenAL device: OpenAL Soft (Built-in Audio Analog Stereo)
+Init: ALAudio: Supported extensions: ALC_ENUMERATE_ALL_EXT ALC_ENUMERATION_EXT ALC_EXT_CAPTURE ALC_EXT_DEDICATED ALC_EXT_disconnect ALC_EXT_EFX ALC_EXT_thread_local_context ALC_SOFT_device_clock ALC_SOFT_HRTF ALC_SOFT_loopback ALC_SOFT_loopback_bformat ALC_SOFT_output_limiter ALC_SOFT_output_mode ALC_SOFT_pause_device ALC_SOFT_reopen_device
+Init: ALAudio: OutputRateNum 5(44100 Hz) SampleRateNum 5 (44100 Hz)
+Init: ALAudio: Audio hardware supports 255 mono (usually sound) and 1 stereo (usually music) sources.
+Init: ALAudio: OpenALSoft extension ALC_SOFT_HRTF found.
+Init: ALAudio: HRTF is enabled.
+Init: OpenAL Effects extension version 1.0 found.
+Init: ALAudio: EFX initialized.
+Init: ALAudio: Version 1.1 ALSOFT 1.22.0 found
+Init: ALAudio subsystem initialized.
+Init: Game engine initialized
+Log: Startup time: 0.825312 seconds.
+Log: Entering main loop.
+Log: SDL_WINDOWEVENT_RESIZED: 3440x1440 - Effective Point Size: 3440x1440 - GLPixel Size 3440x1440
+Log: USDLViewport::ResizeViewport(3440, 1440)
+Log: SDLDrv SwapInterval = 0
+Log: SDLDrv: Window Point Size 3440x1440 - Window Pixel Size 3440x1440 - Mouse Scale 1.000000,1.000000
+Init: ALAudio: Trying to autodetect HRTF. Note: Autodetection may only work with USB headphones.
+Init: ALAudio: We are using OpenAL device:  OpenAL Soft (Built-in Audio Analog Stereo)
+Log: StartMusic Uttitle Unreal Tournament Title MusicHandle->MusicBuffer 16,MUSIC_BUFFER_SIZE 16384), IsPlaying 0
+Log: ALAudio: playing Uttitle Unreal Tournament Title (Impulse Tracker 2.14v5 IT 1.00)
+Log: SDL_WINDOWEVENT_RESIZED: 3440x1440 - Effective Point Size: 3440x1440 - GLPixel Size 3440x1440
+Log: USDLViewport::ResizeViewport(3440, 1440)
+Log: SDLDrv SwapInterval = 0
+Log: SDLDrv: Window Point Size 3440x1440 - Window Pixel Size 3440x1440 - Mouse Scale 1.000000,1.000000
+Init: OpenGL: Created main Framebuffer: 3440x1440  HighQuality=true  AA=true (4)
+Log: URL: Adding default option Name=Player
+Log: URL: Adding default option Class=Botpack.TMale2
+Log: URL: Adding default option team=255
+Log: URL: Adding default option skin=SoldierSkins.blkt
+Log: URL: Adding default option Face=SoldierSkins.Othello
+Log: Browse: Index.unr?entry?Name=Player?Class=Botpack.TMale2?team=255?skin=SoldierSkins.blkt?Face=SoldierSkins.Othello
+Log: Failed; returning to Entry
+Init: Shut down moving brush tracker for Level CityIntro.MyLevel
+Log: Spawning new actor for Viewport SDLViewport0
+ScriptLog: Team 255
+ScriptLog: Login: Player
+Log: Possessed PlayerPawn: TMale2 Entry.TMale20
+ScriptLog: Creating root window: UMenu.UMenuRootWindow
+ScriptLog: Using Configured GUI Scale: 2.500000
+Log: Bound to udemo.so
+udemo: Startup hack successful!
+Log: UDEMO: Successfully got list of demos
+Log: UDEMO: Successfully got list of demos
+Log: StartMusic utmenu23 Unreal Tournament Menu MusicHandle->MusicBuffer 16,MUSIC_BUFFER_SIZE 16384), IsPlaying 0
+Log: ALAudio: playing utmenu23 Unreal Tournament Menu (Impulse Tracker 2.14v5 IT 1.00)
+Log: URL: Adding default option Name=Player
+Log: URL: Adding default option Class=Botpack.TMale2
+Log: URL: Adding default option team=255
+Log: URL: Adding default option skin=SoldierSkins.blkt
+Log: URL: Adding default option Face=SoldierSkins.Othello
+Log: Browse: DM-Tempest.unr?Game=Botpack.LastManStanding?Mutator=relics.RelicDefense,relics.RelicRedemption,relics.RelicRegen,relics.RelicSpeed,relics.RelicStrength,relics.RelicDeath?Listen?Checksum=NoChecksum?Name=Player?Class=Botpack.TMale2?team=255?skin=SoldierSkins.blkt?Face=SoldierSkins.Othello
+Log: LoadMap: DM-Tempest.unr?Game=Botpack.LastManStanding?Mutator=relics.RelicDefense,relics.RelicRedemption,relics.RelicRegen,relics.RelicSpeed,relics.RelicStrength,relics.RelicDeath?Listen?Checksum=NoChecksum?Name=Player?Class=Botpack.TMale2?team=255?skin=SoldierSkins.blkt?Face=SoldierSkins.Othello
+Log: UDEMO: Successfully got list of demos
+Log: Collecting garbage
+Log: Purging garbage
+Log: Unloading: Package CityIntro
+Log: Unloading: Package ArenaTex
+Log: Unloading: Package NaliCast
+Log: Unloading: Package RainFX
+Log: Unloading: Package DecayedS
+Log: Unloading: Package NaliFX
+Log: Unloading: Package genfluid
+Log: Unloading: Package AmbModern
+Log: Unloading: Package AmbAncient
+Log: Unloading: Package openingwave
+Log: Unloading: Package Uttitle
+Log: Unloading: Package AmbOutside
+Log: Unloading: Package SoldierSkins
+Log: Unloading: Package utmenu23
+Log: Unloading: Package Chaosgames
+Log: Unloading: Package ChaosUT
+Log: Unloading: Package chaostex
+Log: Unloading: Package ChaosSounds
+Log: Unloading: Package chaossounds2
+Log: Unloading: Package ChaosUTMedia1
+Log: Unloading: Package ChaosUTMedia5
+Log: Unloading: Package ChaosUTMedia2
+Log: Unloading: Package chaostex2
+Log: Unloading: Package ChaosUTMedia4
+Log: Unloading: Package ChaosUTMedia3
+Log: Unloading: Package chaos_special_tex
+Log: Unloading: Package ChaosUTMiscMuts
+Log: Unloading: Package UTBrowser
+Log: Unloading: Package DM-StalwartXL
+Log: Unloading: Package Metalmys
+Log: Unloading: Package Slums
+Log: Unloading: Package AmbCity
+Log: Unloading: Package Liquids
+Log: Unloading: Package Strider
+Log: Garbage: objects: 32410->26755; refs: 485755
+Log: Game class is 'LastManStanding'
+Init: Sockets: Socket queue 262144 / 262144
+Init: Sockets: I am goteki (127.0.1.1)
+DevNet: TcpNetDriver on port 7777
+Log: Server Package: SoldierSkins
+Log: Server Package: CommandoSkins
+Log: Server Package: FCommandoSkins
+Log: Server Package: SGirlSkins
+Log: Server Package: BossSkins
+Log: Server Package: Botpack
+Log: Server Package: MultiMesh
+Log: Server Package: Relics
+Log: Server Package: EpicCustomModels
+Log: Server Package: TCowMeshSkins
+Log: Server Package: TNaliMeshSkins
+Log: Server Package: TSkMSkins
+Log: Server Package: De
+Log: MD5 protection enabled: FALSE
+Log: Spawning: IpDrv.UdpBeacon
+Log: Spawning: IpServer.UdpServerQuery
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: UWeb.WebServer
+Log: Bringing Level DM-Tempest.MyLevel up for play (0)...
+ScriptLog: InitGame: ?Game=Botpack.LastManStanding?Mutator=relics.RelicDefense,relics.RelicRedemption,relics.RelicRegen,relics.RelicSpeed,relics.RelicStrength,relics.RelicDeath?Listen?Checksum=NoChecksum?Name=Player?Class=Botpack.TMale2?team=255?skin=SoldierSkins.blkt?Face=SoldierSkins.Othello
+ScriptLog: Base Mutator is DM-Tempest.DMMutator0
+ScriptLog: Mutators relics.RelicDefense,relics.RelicRedemption,relics.RelicRegen,relics.RelicSpeed,relics.RelicStrength,relics.RelicDeath
+ScriptLog: Add mutator relics.RelicDefense
+ScriptLog: Add mutator relics.RelicRedemption
+ScriptLog: Add mutator relics.RelicRegen
+ScriptLog: Add mutator relics.RelicSpeed
+ScriptLog: Add mutator relics.RelicStrength
+ScriptLog: Add mutator relics.RelicDeath
+ScriptLog: UdpServerQuery(crt): Port 7778 successfully bound.
+ScriptLog: DoUplink is not set.  Not connecting to Master Server.
+ScriptLog: DoUplink is not set.  Not connecting to Master Server.
+ScriptLog: DoUplink is not set.  Not connecting to Master Server.
+ScriptLog: DoUplink is not set.  Not connecting to Master Server.
+ScriptLog: DoUplink is not set.  Not connecting to Master Server.
+ScriptLog: DoUplink is not set.  Not connecting to Master Server.
+ScriptLog: DoUplink is not set.  Not connecting to Master Server.
+ScriptLog: DoUplink is not set.  Not connecting to Master Server.
+ScriptLog: DoUplink is not set.  Not connecting to Master Server.
+ScriptLog: Webserver is not enabled.  Set bEnabled to True in Advanced Options.
+ScriptLog: Initiating local logging...
+Log: Spawning new actor for Viewport SDLViewport0
+ScriptLog: Team 255
+ScriptLog: Login: Player
+Log: Possessed PlayerPawn: TMale2 DM-Tempest.TMale20
+Init: Initialized moving brush tracker for Level DM-Tempest.MyLevel
+Init: OpenGL: Created main Framebuffer: 3440x1440  HighQuality=true  AA=true (4)
+Log: UDEMO: Successfully got list of demos
+Log: StartMusic Botpck10 BOTMCA#10 (By Michiel) MusicHandle->MusicBuffer 16,MUSIC_BUFFER_SIZE 16384), IsPlaying 0
+Log: ALAudio: playing Botpck10 BOTMCA#10 (By Michiel) (Impulse Tracker 2.14 IT 1.00)
+DevNet: NotifyAcceptingConnection: Server MyLevel accept
+NetComeGo: Open MyLevel Sun Sep 22 13:07:43 2024 192.168.1.137:22375
+DevNet: NotifyAcceptingChannel Control 0 server Level DM-Tempest.MyLevel: Accepted
+DevNet: Level server received: HELLO REVISION=0 MINVER=432 VER=469
+DevNet: Level server received: NETSPEED 20000
+Log: Client netspeed is 20000
+DevNet: Level server received: LOGIN RESPONSE=-1258294814 URL=Index.unr?LAN?Name=Asher?Team=255?Class=Botpack.TMale2?Skin=SoldierSkins.blkt?Face=SoldierSkins.Othello?Voice=BotPack.VoiceMaleTwo?OverrideClass=
+DevNet: Client passed challenge
+DevNet: Login request: Index.unr?LAN?Name=Asher?Team=255?Class=Botpack.TMale2?Skin=SoldierSkins.blkt?Face=SoldierSkins.Othello?Voice=BotPack.VoiceMaleTwo?OverrideClass=
+DevNet: NotifyAcceptingConnection: Server MyLevel accept
+NetComeGo: Open MyLevel Sun Sep 22 13:07:44 2024 192.168.1.137:16699
+DevNet: Level server received: JOIN
+DevNet: Join request: Index.unr?LAN?Name=Asher?Team=255?Class=Botpack.TMale2?Skin=SoldierSkins.blkt?Face=SoldierSkins.Othello?Voice=BotPack.VoiceMaleTwo?OverrideClass=
+ScriptLog: Team 255
+ScriptLog: Login: Asher
+Log: Possessed PlayerPawn: TMale2 DM-Tempest.TMale1
+ScriptLog: Getting SoldierSkins.Blkt1, SoldierSkins.Blkt2, SoldierSkins.Blkt3, SoldierSkins.Blkt4Othello
+DevNet: Join succeeded: Asher
+ScriptLog: Getting FCommandoSkins.daco1T_0, FCommandoSkins.daco2T_0, None, FCommandoSkins.daco4Mariana
+ScriptLog: Getting SoldierSkins.sldr1, SoldierSkins.sldr2, SoldierSkins.sldr3, SoldierSkins.sldr4Johnson
+ScriptLog: Getting SoldierSkins.Blkt1, SoldierSkins.Blkt2, SoldierSkins.Blkt3, SoldierSkins.Blkt4Othello
+ScriptLog: Getting SoldierSkins.Blkt1, SoldierSkins.Blkt2, SoldierSkins.Blkt3, SoldierSkins.blkt4Malcom
+ScriptLog: Getting FCommandoSkins.daco1T_3, FCommandoSkins.daco2T_3, None, FCommandoSkins.daco4Kyla
+ScriptLog: Getting SoldierSkins.Blkt1, SoldierSkins.Blkt2, SoldierSkins.Blkt3, SoldierSkins.blkt4Malcom
+ScriptLog: Getting FCommandoSkins.goth1, FCommandoSkins.goth2, None, FCommandoSkins.goth4Cryss
+ScriptLog: Getting SGirlSkins.Venm1T_3, SGirlSkins.Venm2T_3, SGirlSkins.Venm3, SGirlSkins.Venm4Sarena
+ScriptLog: Getting SGirlSkins.Army1T_2, SGirlSkins.Army2T_2, SGirlSkins.Army3, SGirlSkins.Army4Sara
+ScriptLog: Getting SoldierSkins.sldr1, SoldierSkins.sldr2, SoldierSkins.sldr3, SoldierSkins.Sldr4Rankin
+ScriptLog: Getting CommandoSkins.daco1, CommandoSkins.daco2Boris, CommandoSkins.daco3t_1, CommandoSkins.daco4t_1
+ScriptLog: Getting SGirlSkins.Garf1, SGirlSkins.Garf2, SGirlSkins.Garf3, SGirlSkins.Garf4Vixen
+ScriptLog: Getting SoldierSkins.RawS1, SoldierSkins.RawS2, SoldierSkins.RawS3, SoldierSkins.RawS4Kregore
+ScriptLog: Getting SGirlSkins.Venm1T_3, SGirlSkins.Venm2T_3, SGirlSkins.Venm3, SGirlSkins.Venm4Cilia
+DevNet: Connection timed out after 150.000000 seconds (150.000092)
+NetComeGo: Close TcpipConnection1 Sun Sep 22 13:10:14 2024
+ScriptWarning: RelicStrengthInventory DM-Tempest.RelicStrengthInventory2 (Function Relics.RelicStrengthInventory.SetStrengthWeapon:0031) Accessed None 'Owner'
+ScriptWarning: RelicStrengthInventory DM-Tempest.RelicStrengthInventory2 (Function Relics.RelicStrengthInventory.SetStrengthWeapon:0031) Accessed None 'Owner'
+ScriptWarning: RelicStrengthInventory DM-Tempest.RelicStrengthInventory2 (Function Relics.RelicStrengthInventory.SetStrengthWeapon:0031) Accessed None 'Owner'
+ScriptWarning: RelicStrengthInventory DM-Tempest.RelicStrengthInventory2 (Function Relics.RelicStrengthInventory.SetStrengthWeapon:0031) Accessed None 'Owner'
+ScriptWarning: RelicStrengthInventory DM-Tempest.RelicStrengthInventory5 (Function Relics.RelicStrengthInventory.SetStrengthWeapon:0031) Accessed None 'Owner'
+ScriptWarning: UT_Eightball DM-Tempest.UT_Eightball8 (Function Botpack.UT_Eightball.SuggestAttackStyle:001C) Accessed None 'Enemy'
+ScriptWarning: UT_Eightball DM-Tempest.UT_Eightball8 (Function Botpack.UT_Eightball.SuggestAttackStyle:001C) Accessed None 'Enemy'
+ScriptWarning: UT_Eightball DM-Tempest.UT_Eightball8 (Function Botpack.UT_Eightball.SuggestAttackStyle:001C) Accessed None 'Enemy'
+ScriptWarning: UT_Eightball DM-Tempest.UT_Eightball8 (Function Botpack.UT_Eightball.SuggestAttackStyle:001C) Accessed None 'Enemy'
+ScriptLog: Game ended at 797.379211
+ScriptLog: !!!!!!!!!!!!!!! CALC END STATS
+ScriptLog: ProcessServerTravel: DM-HyperBlast.unr
+DevNet: NotifyAcceptingConnection: Server MyLevel refused
+DevNet: NotifyAcceptingConnection: Server MyLevel refused
+DevNet: NotifyAcceptingConnection: Server MyLevel refused
+DevNet: NotifyAcceptingConnection: Server MyLevel refused
+DevNet: NotifyAcceptingConnection: Server MyLevel refused
+DevNet: NotifyAcceptingConnection: Server MyLevel refused
+DevNet: NotifyAcceptingConnection: Server MyLevel refused
+DevNet: NotifyAcceptingConnection: Server MyLevel refused
+DevNet: NotifyAcceptingConnection: Server MyLevel refused
+DevNet: NotifyAcceptingConnection: Server MyLevel refused
+DevNet: NotifyAcceptingConnection: Server MyLevel refused
+DevNet: NotifyAcceptingConnection: Server MyLevel refused
+DevNet: NotifyAcceptingConnection: Server MyLevel refused
+DevNet: NotifyAcceptingConnection: Server MyLevel refused
+DevNet: NotifyAcceptingConnection: Server MyLevel refused
+DevNet: NotifyAcceptingConnection: Server MyLevel refused
+DevNet: NotifyAcceptingConnection: Server MyLevel refused
+NetComeGo: Close TcpipConnection0 Sun Sep 22 13:20:04 2024
+DevNet: NotifyAcceptingConnection: Server MyLevel refused
+DevNet: NotifyAcceptingConnection: Server MyLevel refused
+Log: Server switch level: DM-HyperBlast.unr?Skin=SoldierSkins.blkt?Face=SoldierSkins.Othello?Team=255?Name=Player?Class=Botpack.TMale2
+Log: Browse: DM-HyperBlast.unr?Game=Botpack.LastManStanding?Mutator=relics.RelicDefense,relics.RelicRedemption,relics.RelicRegen,relics.RelicSpeed,relics.RelicStrength,relics.RelicDeath?Listen?Checksum=NoChecksum?Name=Player?Class=Botpack.TMale2?Team=255?Skin=SoldierSkins.blkt?Face=SoldierSkins.Othello
+Log: LoadMap: DM-HyperBlast.unr?Game=Botpack.LastManStanding?Mutator=relics.RelicDefense,relics.RelicRedemption,relics.RelicRegen,relics.RelicSpeed,relics.RelicStrength,relics.RelicDeath?Listen?Checksum=NoChecksum?Name=Player?Class=Botpack.TMale2?Team=255?Skin=SoldierSkins.blkt?Face=SoldierSkins.Othello
+Log: UDEMO: Successfully got list of demos
+Init: Shut down moving brush tracker for Level DM-Tempest.MyLevel
+Exit: WinSock shut down
+Log: Collecting garbage
+Log: Purging garbage
+Log: Unloading: Package city
+Log: Unloading: Package GenIn
+Log: Unloading: Package ShaneSky
+Log: Unloading: Package DoorsMod
+Log: Unloading: Package DM-Tempest
+Log: Unloading: Package UTtech3
+Log: Unloading: Package Botpck10
+Log: Unloading: Package de
+Log: Unloading: Package TSkMSkins
+Log: Unloading: Package TNaliMeshSkins
+Log: Unloading: Package TCowMeshSkins
+Log: Unloading: Package Relics
+Log: Unloading: Package EpicCustomModels
+Log: Unloading: Package MultiMesh
+Log: Unloading: Package BossSkins
+Log: Unloading: Package SGirlSkins
+Log: Unloading: Package FCommandoSkins
+Log: Unloading: Package CommandoSkins
+Log: Unloading: Package SoldierSkins
+Log: Garbage: objects: 28758->27053; refs: 387850
+Log: Game class is 'LastManStanding'
+Init: Sockets: Socket queue 262144 / 262144
+DevNet: TcpNetDriver on port 7777
+Log: Server Package: SoldierSkins
+Log: Server Package: CommandoSkins
+Log: Server Package: FCommandoSkins
+Log: Server Package: SGirlSkins
+Log: Server Package: BossSkins
+Log: Server Package: Botpack
+Log: Server Package: MultiMesh
+Log: Server Package: Relics
+Log: Server Package: EpicCustomModels
+Log: Server Package: TCowMeshSkins
+Log: Server Package: TNaliMeshSkins
+Log: Server Package: TSkMSkins
+Log: Server Package: De
+Log: MD5 protection enabled: FALSE
+Log: Spawning: IpDrv.UdpBeacon
+Log: Spawning: IpServer.UdpServerQuery
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: UWeb.WebServer
+Log: Bringing Level DM-HyperBlast.MyLevel up for play (0)...
+ScriptLog: InitGame: ?Game=Botpack.LastManStanding?Mutator=relics.RelicDefense,relics.RelicRedemption,relics.RelicRegen,relics.RelicSpeed,relics.RelicStrength,relics.RelicDeath?Listen?Checksum=NoChecksum?Name=Player?Class=Botpack.TMale2?Team=255?Skin=SoldierSkins.blkt?Face=SoldierSkins.Othello
+ScriptLog: Base Mutator is DM-HyperBlast.DMMutator0
+ScriptLog: Mutators relics.RelicDefense,relics.RelicRedemption,relics.RelicRegen,relics.RelicSpeed,relics.RelicStrength,relics.RelicDeath
+ScriptLog: Add mutator relics.RelicDefense
+ScriptLog: Add mutator relics.RelicRedemption
+ScriptLog: Add mutator relics.RelicRegen
+ScriptLog: Add mutator relics.RelicSpeed
+ScriptLog: Add mutator relics.RelicStrength
+ScriptLog: Add mutator relics.RelicDeath
+ScriptLog: UdpServerQuery(crt): Port 7778 successfully bound.
+ScriptLog: DoUplink is not set.  Not connecting to Master Server.
+ScriptLog: DoUplink is not set.  Not connecting to Master Server.
+ScriptLog: DoUplink is not set.  Not connecting to Master Server.
+ScriptLog: DoUplink is not set.  Not connecting to Master Server.
+ScriptLog: DoUplink is not set.  Not connecting to Master Server.
+ScriptLog: DoUplink is not set.  Not connecting to Master Server.
+ScriptLog: DoUplink is not set.  Not connecting to Master Server.
+ScriptLog: DoUplink is not set.  Not connecting to Master Server.
+ScriptLog: DoUplink is not set.  Not connecting to Master Server.
+ScriptLog: Webserver is not enabled.  Set bEnabled to True in Advanced Options.
+ScriptLog: Initiating local logging...
+Log: Spawning new actor for Viewport SDLViewport0
+ScriptLog: Team 255
+ScriptLog: Login: Player
+Log: Possessed PlayerPawn: TMale2 DM-HyperBlast.TMale20
+Init: Initialized moving brush tracker for Level DM-HyperBlast.MyLevel
+DevNet: NotifyAcceptingConnection: Server MyLevel accept
+NetComeGo: Open MyLevel Sun Sep 22 13:20:05 2024 192.168.1.137:1331
+DevNet: NotifyAcceptingChannel Control 0 server Level DM-HyperBlast.MyLevel: Accepted
+DevNet: Level server received: HELLO REVISION=0 MINVER=432 VER=469
+Init: OpenGL: Created main Framebuffer: 3440x1440  HighQuality=true  AA=true (4)
+Log: UDEMO: Successfully got list of demos
+DevNet: Level server received: NETSPEED 20000
+Log: Client netspeed is 20000
+DevNet: Level server received: LOGIN RESPONSE=-1005741178 URL=DM-HyperBlast.unr?LAN?Name=Asher?Team=255?Class=Botpack.TMale2?Skin=SoldierSkins.blkt?Face=SoldierSkins.Othello?Voice=BotPack.VoiceMaleTwo?OverrideClass=
+DevNet: Client passed challenge
+DevNet: Login request: DM-HyperBlast.unr?LAN?Name=Asher?Team=255?Class=Botpack.TMale2?Skin=SoldierSkins.blkt?Face=SoldierSkins.Othello?Voice=BotPack.VoiceMaleTwo?OverrideClass=
+Log: StartMusic Godown Go Down MusicHandle->MusicBuffer 16,MUSIC_BUFFER_SIZE 16384), IsPlaying 0
+Log: ALAudio: playing Godown Go Down (Impulse Tracker 2.14v5 IT 1.00)
+DevNet: Level server received: JOIN
+DevNet: Join request: DM-HyperBlast.unr?LAN?Name=Asher?Team=255?Class=Botpack.TMale2?Skin=SoldierSkins.blkt?Face=SoldierSkins.Othello?Voice=BotPack.VoiceMaleTwo?OverrideClass=
+ScriptLog: Team 255
+ScriptLog: Login: Asher
+Log: Possessed PlayerPawn: TMale2 DM-HyperBlast.TMale21
+ScriptLog: Getting SoldierSkins.Blkt1, SoldierSkins.Blkt2, SoldierSkins.Blkt3, SoldierSkins.Blkt4Othello
+DevNet: Join succeeded: Asher
+ScriptLog: Getting SoldierSkins.RawS1, SoldierSkins.RawS2, SoldierSkins.RawS3, SoldierSkins.RawS4Kregore
+Log: URL: Adding default option Name=Player
+Log: URL: Adding default option Class=Botpack.TMale2
+Log: URL: Adding default option Team=255
+Log: URL: Adding default option Skin=SoldierSkins.blkt
+Log: URL: Adding default option Face=SoldierSkins.Othello
+Log: Browse: DM-Stalwart.unr?Game=Botpack.LastManStanding?Mutator=?Listen?Checksum=NoChecksum?Name=Player?Class=Botpack.TMale2?Team=255?Skin=SoldierSkins.blkt?Face=SoldierSkins.Othello
+Log: LoadMap: DM-Stalwart.unr?Game=Botpack.LastManStanding?Mutator=?Listen?Checksum=NoChecksum?Name=Player?Class=Botpack.TMale2?Team=255?Skin=SoldierSkins.blkt?Face=SoldierSkins.Othello
+Log: UDEMO: Successfully got list of demos
+Init: Shut down moving brush tracker for Level DM-HyperBlast.MyLevel
+NetComeGo: Close TcpipConnection2 Sun Sep 22 13:20:24 2024
+Exit: WinSock shut down
+Log: Collecting garbage
+Log: Purging garbage
+Log: Unloading: Package GenFX
+Log: Unloading: Package Slums
+Log: Unloading: Package DM-StalwartXL
+Log: Unloading: Package Botpck10
+Log: Unloading: Package UTtech3
+Log: Unloading: Package DM-Tempest
+Log: Unloading: Package Phantom
+Log: Unloading: Package ShaneSky
+Log: Unloading: Package Indus5
+Log: Unloading: Package ShaneDay
+Log: Unloading: Package DDayFX
+Log: Unloading: Package Palettes
+Log: Unloading: Package XFX
+Log: Unloading: Package XbpFX
+Log: Unloading: Package Skybox
+Log: Unloading: Package city
+Log: Unloading: Package utchaosmap
+Log: Unloading: Package SpaceFX
+Log: Unloading: Package Coret_FX
+Log: Unloading: Package Starship
+Log: Unloading: Package GenEarth
+Log: Unloading: Package PlayrShp
+Log: Unloading: Package KOTH_BaseStationTheta
+Log: Unloading: Package uttech2
+Log: Unloading: Package UTBrowser
+Log: Unloading: Package ChaosUTMiscMuts
+Log: Unloading: Package chaos_special_tex
+Log: Unloading: Package ChaosUTMedia3
+Log: Unloading: Package ChaosUTMedia4
+Log: Unloading: Package chaostex2
+Log: Unloading: Package ChaosUTMedia2
+Log: Unloading: Package ChaosUTMedia5
+Log: Unloading: Package ChaosUTMedia1
+Log: Unloading: Package chaossounds2
+Log: Unloading: Package ChaosSounds
+Log: Unloading: Package chaostex
+Log: Unloading: Package ChaosUT
+Log: Unloading: Package Chaosgames
+Log: Unloading: Package DM-HyperBlast
+Log: Unloading: Package Indus4
+Log: Unloading: Package HubEffects
+Log: Unloading: Package Godown
+Log: Unloading: Package de
+Log: Unloading: Package TSkMSkins
+Log: Unloading: Package TNaliMeshSkins
+Log: Unloading: Package TCowMeshSkins
+Log: Unloading: Package Relics
+Log: Unloading: Package EpicCustomModels
+Log: Unloading: Package MultiMesh
+Log: Unloading: Package BossSkins
+Log: Unloading: Package SGirlSkins
+Log: Unloading: Package FCommandoSkins
+Log: Unloading: Package CommandoSkins
+Log: Unloading: Package SoldierSkins
+Log: Garbage: objects: 32087->26893; refs: 357355
+Log: Game class is 'LastManStanding'
+Init: Sockets: Socket queue 262144 / 262144
+DevNet: TcpNetDriver on port 7777
+Log: Server Package: SoldierSkins
+Log: Server Package: CommandoSkins
+Log: Server Package: FCommandoSkins
+Log: Server Package: SGirlSkins
+Log: Server Package: BossSkins
+Log: Server Package: Botpack
+Log: Server Package: MultiMesh
+Log: Server Package: Relics
+Log: Server Package: EpicCustomModels
+Log: Server Package: TCowMeshSkins
+Log: Server Package: TNaliMeshSkins
+Log: Server Package: TSkMSkins
+Log: Server Package: De
+Log: MD5 protection enabled: FALSE
+Log: Spawning: IpDrv.UdpBeacon
+Log: Spawning: IpServer.UdpServerQuery
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: IpServer.UdpServerUplink
+Log: Spawning: UWeb.WebServer
+Log: Bringing Level DM-Stalwart.MyLevel up for play (0)...
+ScriptLog: InitGame: ?Game=Botpack.LastManStanding?Mutator=?Listen?Checksum=NoChecksum?Name=Player?Class=Botpack.TMale2?Team=255?Skin=SoldierSkins.blkt?Face=SoldierSkins.Othello
+ScriptLog: Base Mutator is DM-Stalwart.DMMutator0
+ScriptLog: UdpServerQuery(crt): Port 7778 successfully bound.
+ScriptLog: DoUplink is not set.  Not connecting to Master Server.
+ScriptLog: DoUplink is not set.  Not connecting to Master Server.
+ScriptLog: DoUplink is not set.  Not connecting to Master Server.
+ScriptLog: DoUplink is not set.  Not connecting to Master Server.
+ScriptLog: DoUplink is not set.  Not connecting to Master Server.
+ScriptLog: DoUplink is not set.  Not connecting to Master Server.
+ScriptLog: DoUplink is not set.  Not connecting to Master Server.
+ScriptLog: DoUplink is not set.  Not connecting to Master Server.
+ScriptLog: DoUplink is not set.  Not connecting to Master Server.
+ScriptLog: Webserver is not enabled.  Set bEnabled to True in Advanced Options.
+ScriptLog: Initiating local logging...
+Log: Spawning new actor for Viewport SDLViewport0
+ScriptLog: Team 255
+ScriptLog: Login: Player
+Log: Possessed PlayerPawn: TMale2 DM-Stalwart.TMale21
+Init: Initialized moving brush tracker for Level DM-Stalwart.MyLevel
+Init: OpenGL: Created main Framebuffer: 3440x1440  HighQuality=true  AA=true (4)
+Log: UDEMO: Successfully got list of demos
+Log: StartMusic Strider Into the darkness MusicHandle->MusicBuffer 16,MUSIC_BUFFER_SIZE 16384), IsPlaying 0
+Log: ALAudio: playing Strider Into the darkness (Impulse Tracker 2.14v5 IT 1.00)
+DevNet: NotifyAcceptingConnection: Server MyLevel accept
+NetComeGo: Open MyLevel Sun Sep 22 13:20:26 2024 192.168.1.137:1331
+ScriptLog: Getting CommandoSkins.cmdo1, CommandoSkins.cmdo2Blake, CommandoSkins.cmdo3, CommandoSkins.cmdo4
+ScriptLog: Getting SoldierSkins.sldr1, SoldierSkins.sldr2, SoldierSkins.sldr3, SoldierSkins.Sldr4Rankin
+ScriptLog: Getting SoldierSkins.RawS1, SoldierSkins.RawS2, SoldierSkins.RawS3, SoldierSkins.RawS4Arkon
+ScriptLog: Getting CommandoSkins.goth1, CommandoSkins.goth2Grail, CommandoSkins.goth3, CommandoSkins.goth4
+ScriptLog: Getting SGirlSkins.fbth1T_0, SGirlSkins.fbth2T_0, SGirlSkins.fbth3, SGirlSkins.fbth4Aryss
+ScriptLog: Getting SGirlSkins.Army1T_2, SGirlSkins.Army2T_2, SGirlSkins.Army3, SGirlSkins.Army4Lauren
+ScriptLog: Getting CommandoSkins.daco1, CommandoSkins.daco2Ramirez, CommandoSkins.daco3, CommandoSkins.daco4
+ScriptLog: Getting SoldierSkins.Blkt1, SoldierSkins.Blkt2, SoldierSkins.Blkt3, SoldierSkins.Blkt4Othello
+ScriptLog: Getting SoldierSkins.Blkt1, SoldierSkins.Blkt2, SoldierSkins.Blkt3, SoldierSkins.blkt4Malcom
+ScriptLog: Getting SoldierSkins.Blkt1, SoldierSkins.Blkt2, SoldierSkins.Blkt3, SoldierSkins.blkt4Malcom
+ScriptLog: Getting FCommandoSkins.goth1, FCommandoSkins.goth2, None, FCommandoSkins.goth4Cryss
+ScriptLog: Getting SGirlSkins.Garf1, SGirlSkins.Garf2, SGirlSkins.Garf3, SGirlSkins.Garf4Vixen
+ScriptLog: Getting FCommandoSkins.daco1T_3, FCommandoSkins.daco2T_3, None, FCommandoSkins.daco4Jayce
+ScriptLog: Getting CommandoSkins.daco1, CommandoSkins.daco2Graves, CommandoSkins.daco3, CommandoSkins.daco4
+ScriptLog: Getting FCommandoSkins.goth1T_2, FCommandoSkins.goth2T_2, None, FCommandoSkins.goth4Visse
+Exit: Preparing to exit.
+Log: Collecting garbage
+Log: Purging garbage
+Log: Unbound to SDLDrv.so
+Log: Unbound to Engine.so
+Log: Unbound to Core.so
+Log: Unloading: Package Engine
+Log: Unloading: Package Core
+Exit: Game engine shut down
+Exit: Exit OpenGLRenderDevice0
+Exit: Delete GL (0)
+Exit: SDL client shut down
+Log: Unbound to Render.so
+Exit: Lighting subsystem shut down
+Exit: Rendering shut down
+Log: Unloading: Package Entry
+Log: Unloading: Package Logo
+Log: Unbound to Fire.so
+Log: Unloading: Package Fire
+Log: Unloading: Package credits
+Log: Unloading: Package Botpack
+Log: Unloading: Package UnrealShare
+Log: Unloading: Package UnrealI
+Log: Unloading: Package Female2Voice
+Log: Unloading: Package Male2Voice
+Log: Unloading: Package Female1Voice
+Log: Unloading: Package BossVoice
+Log: Unloading: Package Male1Voice
+Log: Unloading: Package UMenu
+Log: Unloading: Package UWindow
+Log: Unloading: Package UBrowser
+Log: Unbound to IpDrv.so
+Log: Unloading: Package IpDrv
+Log: Unloading: Package Announcer
+Log: Unloading: Package Detail
+Log: Unloading: Package DM-Stalwart
+Log: Unloading: Package Strider
+Log: Unloading: Package Liquids
+Log: Unloading: Package AmbCity
+Log: Unloading: Package Metalmys
+Log: Unloading: Package UTMenu
+Log: Unloading: Package LadderSounds
+Log: Unbound to UWeb.so
+Log: Unloading: Package UWeb
+Log: Unloading: Package UTServerAdmin
+Log: Unloading: Package IpServer
+Log: Unloading: Package LadrArrow
+Log: Unbound to OpenGLDrv.so
+Log: Unbound to ALAudio.so
+Exit: ALAudio: subsystem shut down.
+Exit: ALAudio: Audio subsystem shut down.
+Log: Unloading: Package LadderFonts
+Log: Unloading: Package DoorsMod
+Log: Unloading: Package DecayedS
+Log: Unloading: Package RainFX
+Log: Unloading: Package GenIn
+Log: Unloading: Package UWindowFonts
+Log: Unbound to udemo.so
+Log: Unloading: Package udemo
+Log: Unloading: Package UTtech1
+Log: Unloading: Package AmbModern
+Log: Unloading: Package genfluid
+Init: Shut down moving brush tracker for Level DM-Stalwart.MyLevel
+NetComeGo: Close TcpipConnection3 Sun Sep 22 13:21:16 2024
+Exit: WinSock shut down
+Log: Unloading: Package de
+Log: Unloading: Package TSkMSkins
+Log: Unloading: Package TNaliMeshSkins
+Log: Unloading: Package TCowMeshSkins
+Log: Unloading: Package Relics
+Log: Unloading: Package EpicCustomModels
+Log: Unloading: Package MultiMesh
+Log: Unloading: Package BossSkins
+Log: Unloading: Package SGirlSkins
+Log: Unloading: Package FCommandoSkins
+Log: Unloading: Package CommandoSkins
+Log: Unloading: Package SoldierSkins
+Log: Garbage: objects: 28848->0; refs: 0
+Exit: Object subsystem successfully closed.
+Exit: Exiting.
+Exit: Allocation checking disabled

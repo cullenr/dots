@@ -1,0 +1,26 @@
+# Display a list of the matching files
+set show-all-if-ambiguous on
+set show-all-if-unmodified on
+
+# show colours in the completions list
+set colored-stats on
+
+# show the partially typed part of a completion in a different colour
+set colored-completion-prefix on
+
+# cycling full results on the second Tab press (from bash version 5)
+set menu-complete-display-prefix on
+
+# If there are multiple matches for completion, Tab should cycle through them
+TAB: menu-complete
+# And Shift-Tab should cycle backwards
+"\e[Z":  menu-complete-backward
+
+# Cycle through history based on characters already typed on the line
+"\e[A": history-search-backward
+"\e[B": history-search-forward
+
+# Keep Ctrl-Left and Ctrl-Right working when the above are used
+"\e[1;5C": forward-word
+"\e[1;5D": backward-word
+
